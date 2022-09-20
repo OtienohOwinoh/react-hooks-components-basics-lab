@@ -19,8 +19,8 @@ function Home() {
  function About(){
   return (
     <div id="about">
-  <h1>About</h1>
-</div>
+      <h1>About</h1>
+        </div>
 
   )
  }
@@ -29,6 +29,7 @@ function Home() {
 function App() {
   return (
     <div>
+
       <NavBar />
       <Home />
       <About />
